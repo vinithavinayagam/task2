@@ -1,2 +1,24 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<html>
+    <head>
+        <title>
+        </title>
+        <style>
+            #bg-text{
+                background-color: white;border: 5px solid wheat;padding: 25px;
+            }
+            .bg-text{
+                background-color: rgb(252, 255, 192);border: 1px solid white;padding: 25px;
+             }
+        </style>
+    </head>
+    <body>
+        <div id ="bg-text">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Debitis repellendus mollitia iure maxime nostrum enim aut facere, voluptates iste veritatis, explicabo, blanditiis minima vitae corporis? Illum natus veritatis voluptate facilis!
+        </div>
+        <div class="bg=text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corrupti vero quidem. 
+            Sit quisquam labore illo repellendus temporibus inventore atque delectus quia quam. Similique recusandae repellendus ipsa saepe quasi quidem?
+        </div>
+    </body>
+</html>
