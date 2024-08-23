@@ -1,24 +1,49 @@
 <html>
     <head>
         <title>
+            Login and Registeration Form
         </title>
-        <style>
-            #bg-text{
-                background-color: white;border: 5px solid wheat;padding: 25px;
-            }
-            .bg-text{
-                background-color: rgb(252, 255, 192);border: 1px solid white;padding: 25px;
-             }
-        </style>
+        <!-- <link rel="stylesheet" herf="task3.css"> -->
+
     </head>
     <body>
-        <div id ="bg-text">
-               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-             Debitis repellendus mollitia iure maxime nostrum enim aut facere, voluptates iste veritatis, explicabo, blanditiis minima vitae corporis? Illum natus veritatis voluptate facilis!
+        <form action="action.html">
+            <input type="text" name="firstname">
+            <br>
+            <input type="text" name="lastname">
+            <br>
+            <input type="submit" value="submit">
+        </form>
+        <div >
+            <h2> Login Form</h2>
+            <form action="#">
+                <label for="username">username</label><br>
+                <input type="text" name="username" placeholder="Enter user name"><br>
+                <label for="pw">Password</label><br>
+                <input type="password" name="pw" placeholder="Enter password"><br><br>
+                <input type="submit" value="Login"><br><br>
+
         </div>
-        <div class="bg=text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corrupti vero quidem. 
-            Sit quisquam labore illo repellendus temporibus inventore atque delectus quia quam. Similique recusandae repellendus ipsa saepe quasi quidem?
+        <br><hr>
+        <div class="card">
+            <h2>
+                Register Form
+            </h2>
+            <form>
+                <label for="fnmae"> First Name</label><br>
+                <input type="text" name="fname" placeholder="enter your first name"><br>
+                <label for="lname"> Last Name</label><br>
+                <input type="text" name="lname" placeholder="enter your last name"><br>
+                <label for="email"> Email_ID</label><br>
+                <input type="email" name="email" placeholder="enter your email id"><br>
+                <label for="mobilno">Contact_No</label><br>
+                <input type="tel" name="mobilno" placeholder="enter your mobilno"><br>
+                <label for="address">Address</label><br>
+                <input type="textarea" name="address" placeholder="enter your address"><br>
+                <input type="submit" value="Register"><br><br>
+            </form>
+
         </div>
     </body>
+
 </html>
